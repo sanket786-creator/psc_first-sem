@@ -4,4 +4,4 @@ def evenodd(num):
         print("even")
     else:
         print("odd")   
-    evenodd(25)
+evenodd(25)
