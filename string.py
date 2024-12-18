@@ -34,3 +34,11 @@
 str="Hi How are you?"
 s=str.split()
 print(len(s))
+
+sen="python programming is easy"
+word=sen.split()
+max=""
+for i in word:
+    if len(i)>len(max):
+        max=i
+print(max)
