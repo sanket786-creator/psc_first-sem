@@ -42,3 +42,7 @@ for i in word:
     if len(i)>len(max):
         max=i
 print(max)
+
+
+z="57335838"
+print(z.isdigit())
